@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            background-image: url("網頁/IMG_4671.JPG");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .search-container {
+            position: relative;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .search-container input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .main-content {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .upload-section, .tutorial-section {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">WONDERLAND</div>
+        <nav>
+            <a href="#vignette">Vignette</a>
+            <a href="#illustration-works">Illustration Works</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" placeholder="Search for...">
+    </div>
+    <div class="main-content">
+        <section id="vignette" class="section">
+            <h2>Vignette</h2>
+            <p>歡迎來到Wonderland，在這裡，你將探索到各種插畫風格的美妙世界。</p>
+        </section>
+        <section id="illustration-works" class="section">
+            <h2>Illustration Works</h2>
+            <p>這裡展示了各種插畫風格，包括卡通風格、寫實風格、水彩風格和科幻風格等。每個風格區塊都提供相關信息，使你更好地了解每個風格的特色和魅力。</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>Wonderland的核心理念是展示多樣化的插畫風格，並與訪客互動，提供教學文章或影片，幫助有興趣的人學習不同風格的插畫技巧。</p>
+        </section>
+        <section id="upload" class="upload-section">
+            <h2>Upload Your Works</h2>
+            <p>在這裡上傳你的插畫作品，分享你的創意和靈感，與其他插畫愛好者交流互動。</p>
+            <input type="file">
+        </section>
+        <section id="tutorials" class="tutorial-section">
+            <h2>Tutorials</h2>
+            <p>我們提供了多種插畫風格的教學文章和影片，幫助你學習和提升插畫技巧。</p>
+            <p><a href="#">查看教學</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>聯絡我們: email@example.com | 追蹤我們: <a href="#">Instagram</a>, <a href="#">Facebook</a></p>
+    </footer>
+</body>
+</html>
